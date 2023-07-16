@@ -1,4 +1,4 @@
-package codewars.kyu7;
+package codewars.kyu6;
 
 import java.util.Collections;
 import java.util.HashSet;
