@@ -7,10 +7,6 @@ public class YouOnlyNeedOneBeginner {
                 return true;
         return false;
     }
-
-    //public static boolean check(Object[] a, Object x) {
-    //        return Arrays.asList(a).contains(x);
-    //    }
     //
     //You will be given an array a and a value x.
     //All you need to do is check whether the provided array contains the value.
