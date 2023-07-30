@@ -1,5 +1,7 @@
 package codewars.kyu8;
 
+import java.util.Arrays;
+
 public class SumArrays {
     public static double sum(double[] numbers) {
         double result = 0;
@@ -7,9 +9,9 @@ public class SumArrays {
         return result;
     }
 
-    //public static double sum(double[] numbers) {
-    //    return Arrays.stream(numbers).sum();
-    //  }
+//    public static double sum(double[] numbers) {
+//        return Arrays.stream(numbers).sum();
+//      }
 
     //Write a function that takes an array of numbers and returns the sum of the numbers.
     //The numbers can be negative or non-integer.
