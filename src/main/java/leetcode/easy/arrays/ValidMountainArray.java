@@ -1,15 +1,15 @@
 package leetcode.easy.arrays;
 
 public class ValidMountainArray {
-    public boolean validMountainArray(int[] Arr) {
+    public boolean validMountainArray(int[] arr) {
         int i = 0;
-        int j = Arr.length - 1;
-        int n = Arr.length - 1;
-        while (i + 1 < n && Arr[i] < Arr[i+1]) {
+        int j = arr.length - 1;
+        int n = arr.length - 1;
+        while (i + 1 < n && arr[i] < arr[i+1]) {
             i++;
         }
 
-        while (j > 0 && Arr[j] < Arr[j-1]) {
+        while (j > 0 && arr[j] < arr[j-1]) {
             j--;
         }
 
