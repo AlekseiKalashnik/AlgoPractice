@@ -3,7 +3,7 @@ package leetcode.easy.arrays;
 import java.util.Arrays;
 
 public class DuplicateZeros {
-    public void duplicateZeros(int[] arr) {  //[1,0,2,3,0,4,5,0] -> [1,0,0,2,3,0,0,4,5,0,0]
+    public void duplicateZeros(int[] arr) {  //[1,0,2,3,0,4,5,0] -> [1,0,0,2,3,0,0,4]
         for (int i = 0; i < arr.length; i++) {
             if (arr[i] == 0) {
                 for (int k = arr.length - 1; k >= i + 1; k--) {
