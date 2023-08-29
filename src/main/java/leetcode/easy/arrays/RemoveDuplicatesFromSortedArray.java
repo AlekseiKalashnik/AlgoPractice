@@ -3,16 +3,16 @@ package leetcode.easy.arrays;
 public class RemoveDuplicatesFromSortedArray {
     public int removeDuplicates(int[] nums) {
         int tmp = nums[0];
-        int cnt = 1;
+        int count = 1;
 
         for (int i = 1; i < nums.length; i++) {
             if (nums[i] > tmp) {
                 tmp = nums[i];
-                nums[cnt] = tmp;
-                cnt++;
+                nums[count] = tmp;
+                count++;
             }
         }
-        return cnt;
+        return count;
     }
     /*Given an integer array nums sorted in non-decreasing order, remove the duplicates in-place such that each unique element appears only once.
     The relative order of the elements should be kept the same. Then return the number of unique elements in nums.
