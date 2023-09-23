@@ -4,7 +4,7 @@ public class GetTheMiddleCharacter {
     public static String getMiddle(String word) {
         String s = "";
         int length = word.length();
-        int half = length/2;
+        int half = length / 2;
 
         if (length % 2 == 0) {
             s = word.substring(half - 1, half + 1);
