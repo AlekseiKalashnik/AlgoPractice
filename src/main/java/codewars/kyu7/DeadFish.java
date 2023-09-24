@@ -7,7 +7,7 @@ public class DeadFish {
     public static int[] parse(String data) {
         int value = 0;
         List<Integer> result = new ArrayList<>();
-        for(char letter : data.toCharArray()) {
+        for (char letter : data.toCharArray()) {
             switch (letter) {
                 case 'i' -> value++;
                 case 'd' -> value--;
