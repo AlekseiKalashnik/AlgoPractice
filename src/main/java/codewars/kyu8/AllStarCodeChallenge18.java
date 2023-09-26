@@ -3,8 +3,8 @@ package codewars.kyu8;
 public class AllStarCodeChallenge18 {
     public static int strCount(String str, char letter) {
         int counter = 0;
-        for(char character : str.toCharArray()) {
-            if(letter == character) {
+        for (char character : str.toCharArray()) {
+            if (letter == character) {
                 counter++;
             }
         }
