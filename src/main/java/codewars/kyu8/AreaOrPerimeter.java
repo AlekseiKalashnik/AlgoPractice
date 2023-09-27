@@ -1,8 +1,8 @@
 package codewars.kyu8;
 
 public class AreaOrPerimeter {
-    public static int areaOrPerimeter (int a, int b) {
-        return a == b ? a * b : 2 * ( a + b );
+    public static int areaOrPerimeter(int a, int b) {
+        return a == b ? a * b : 2 * (a + b);
     }
     //You are given the length and width of a 4-sided polygon.
     // The polygon can either be a rectangle or a square.
