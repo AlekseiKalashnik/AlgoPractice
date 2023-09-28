@@ -2,24 +2,14 @@ package codewars.kyu8;
 
 public class BasicOperations {
     public static Integer basicMath(String op, int v1, int v2) {
-        int result = 0;
 
-        switch (op) {
-            case "+":
-                result = v1 + v2;
-                break;
-            case "-":
-                result = v1 - v2;
-                break;
-            case "*":
-                result = v1 * v2;
-                break;
-            case "/":
-                result = v1 / v2;
-                break;
-        }
-
-        return result;
+        return switch (op) {
+            case "+" -> v1 + v2;
+            case "-" -> v1 - v2;
+            case "*" -> v1 * v2;
+            case "/" -> v1 / v2;
+            default -> 0;
+        };
     }
 
     //Your task is to create a function that does four basic mathematical operations.
