@@ -1,7 +1,7 @@
 package codewars.kyu8;
 
 public class BeginnerReduceButGrow {
-    public static int grow(int[] x){
+    public static int grow(int[] x) {
         int result = 1;
         for (int a : x) {
             result *= a;
