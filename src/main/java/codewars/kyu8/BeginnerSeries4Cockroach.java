@@ -1,8 +1,8 @@
 package codewars.kyu8;
 
 public class BeginnerSeries4Cockroach {
-    public int cockroachSpeed(double x){
-        return (int)(x / 0.036);
+    public int cockroachSpeed(double x) {
+        return (int) (x / 0.036);
     }
     //The cockroach is one of the fastest insects. Write a function which takes its speed in km per hour and returns it in cm per second, rounded down to the integer (= floored).
     //
