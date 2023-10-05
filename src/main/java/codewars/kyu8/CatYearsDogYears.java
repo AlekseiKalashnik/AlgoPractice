@@ -2,7 +2,7 @@ package codewars.kyu8;
 
 public class CatYearsDogYears {
     public static int[] humanYearsCatYearsDogYears(final int humanYears) {
-        int catYears =0, dogYears = 0;
+        int catYears = 0, dogYears = 0;
         switch (humanYears) {
             default:
                 catYears = 4 * (humanYears - 2);
