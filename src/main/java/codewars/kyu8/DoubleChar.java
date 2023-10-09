@@ -1,7 +1,7 @@
 package codewars.kyu8;
 
 public class DoubleChar {
-    public static String doubleChar(String s){
+    public static String doubleChar(String s) {
         StringBuilder srtingBuilder = new StringBuilder("");
         for (int i = 0; i < s.length(); i++) {
             srtingBuilder.append(s.charAt(i)).append(s.charAt(i));
