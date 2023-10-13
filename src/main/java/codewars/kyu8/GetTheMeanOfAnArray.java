@@ -3,8 +3,8 @@ package codewars.kyu8;
 import java.util.stream.IntStream;
 
 public class GetTheMeanOfAnArray {
-    public static int getAverage(int[] marks){
-        return (IntStream.of(marks).sum())/marks.length;
+    public static int getAverage(int[] marks) {
+        return (IntStream.of(marks).sum()) / marks.length;
     }
 
     //It's the academic year's end, fateful moment of your school report.
