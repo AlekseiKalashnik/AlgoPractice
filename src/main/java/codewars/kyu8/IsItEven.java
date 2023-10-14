@@ -3,7 +3,7 @@ package codewars.kyu8;
 public class IsItEven {
     public boolean isEven(double n) {
         return n % 2 == 0;
-      }
+    }
 
     //In this Kata we are passing a number (n) into a function.
     //
