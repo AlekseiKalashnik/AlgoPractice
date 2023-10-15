@@ -8,7 +8,7 @@ public class Kata {
         int digits[] = new int[numStr.length()];
         int counter = 0;
 
-        for(int i = numStr.length() - 1; i >= 0; i--) {
+        for (int i = numStr.length() - 1; i >= 0; i--) {
             digits[i] = Integer.parseInt(Character.toString(numStr.charAt(counter++)));
         }
 
