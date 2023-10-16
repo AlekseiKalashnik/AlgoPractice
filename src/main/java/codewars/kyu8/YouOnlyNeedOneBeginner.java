@@ -2,8 +2,8 @@ package codewars.kyu8;
 
 public class YouOnlyNeedOneBeginner {
     public static boolean check(Object[] a, Object x) {
-        for(Object b: a)
-            if(b.equals(x))
+        for (Object b : a)
+            if (b.equals(x))
                 return true;
         return false;
     }
