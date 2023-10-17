@@ -1,11 +1,11 @@
 package codewars.kyu8;
 
-public class KeepHydrated  {
+public class KeepHydrated {
 
-    public int Liters(double time)  {
+    public int Liters(double time) {
 
         //Your code goes here! Hint: You should change that -1
-        return (int) (time/2);
+        return (int) (time / 2);
 
     }
 
