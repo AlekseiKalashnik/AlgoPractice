@@ -5,7 +5,9 @@ import java.util.Arrays;
 public class SumArrays {
     public static double sum(double[] numbers) {
         double result = 0;
-        for(double value : numbers){result += value;}
+        for (double value : numbers) {
+            result += value;
+        }
         return result;
     }
 
