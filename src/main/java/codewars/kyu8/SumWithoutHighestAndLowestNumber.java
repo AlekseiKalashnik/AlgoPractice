@@ -3,12 +3,11 @@ package codewars.kyu8;
 import java.util.Arrays;
 
 public class SumWithoutHighestAndLowestNumber {
-    public static int sum(int[] numbers)
-    {
-        if(numbers == null) {
+    public static int sum(int[] numbers) {
+        if (numbers == null) {
             return 0;
         }
-        if(numbers.length == 1) {
+        if (numbers.length == 1) {
             return 0;
         }
         int min = Arrays.stream(numbers).min().orElse(0);
