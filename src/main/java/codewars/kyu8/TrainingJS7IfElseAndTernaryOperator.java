@@ -1,7 +1,7 @@
 package codewars.kyu8;
 
 public class TrainingJS7IfElseAndTernaryOperator {
-    public static int saleHotdogs(final int n){
+    public static int saleHotdogs(final int n) {
         return (n < 5) ? 100 * n : (n < 10) ? 95 * n : 90 * n;
     }
     //Complete function saleHotdogs/SaleHotDogs/sale_hotdogs, function accepts 1 parameter:
